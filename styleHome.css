@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS'; /* Use a cleaner, more modern font */
+  color: #333333; /* Darker text color for better readability */
+  background-color: #f9f4ee; /* Light beige background to match the tone of the design */
+}
+
+/* Navbar */
+nav {
+  background-color: #D3A76A; /* A light beige-brown to match the header */
+  padding: 15px 20px;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Align items across the width */
+  align-items: center;
+}
+
+/* Logo styling */
+nav .logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px; /* Add spacing between menu items */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text for menu items */
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #0288D1; /* Lighter blue hover effect */
+  background-color: #FFD966; /* Pale yellow */
+  border-radius: 5px;
+}
+
+
+ /* Hero Section */
+ .hero {
+  background-image: url('./images/ancient-japan-background-digital-art-style.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.hero h2 {
+  font-size: 3.5em;
+  font-family: 'Comic Sans MS'; /* More elegant font */
+  margin-bottom: 2px;
+}
+.hero p {
+  font-size: 1.5em;
+  word-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+
+}
+.btn {
+  background-color: #d9a059;
+  color: white;
+  padding: 0.75em 2em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  background-color: #F2D7AF;
+}
+
+
+/* Collection Section */
+section#collection {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f9f4ee; /* Light beige background */
+}
+
+#collection h2 {
+  color: #D56B27; /* Slightly darker orange tone for headers */
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#collection p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.art-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.art-item {
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 25px;
+}
+
+.art-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.art-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Show More button */
+#show-more a 
+{
+  background-color: #D3A76A;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#show-more button:hover {
+  background-color: #FFD966;
+}
+
+/* Footer */
+footer {
+  background-color: #D3A76A;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.footer-section p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.footer-section .social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  font-size: 0.9em;
+}

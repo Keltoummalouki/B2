@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Comic Sans MS'; /* Use a cleaner, more modern font */
+    color: #333333; /* Darker text color for better readability */
+    background-color: #f9f4ee; /* Light beige background to match the tone of the design */
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #D3A76A; /* A light beige-brown to match the header */
+    padding: 15px 20px;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Align items across the width */
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  nav .logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Add spacing between menu items */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text for menu items */
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #F2D7AF; /* Lighter blue hover effect */
+    background-color: #FFD966; /* Pale yellow */
+    border-radius: 5px;
+  }
+  
+  
+   /* about Section */
+   .about1 {
+    background-image: url('./images/HelloAbout.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .about1 h2 {
+    font-size: 100px;
+    word-spacing: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .about1 p {
+    font-size: 25px;
+    word-spacing: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .about2 h1 {
+    color: #000000;
+    font-size: Zpx;
+    word-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* founders Section */
+  section#founders {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f4ee; /* Light beige background */
+  }
+  
+  #founders h2 {
+    color: #D56B27; /* Slightly darker orange tone for headers */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  #founders p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #founders h6 {
+    font-size: 36px;
+    color: #D56B27;
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .founders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 zpx 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card h3 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #333;
+}
+  
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+.store2 {
+    display: flex;
+}
+.store-image {
+    flex: 1;
+    padding: 20px;
+}
+.store-image img
+{
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+.text-image h1 {
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.text-image p {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 26px;
+    text-align: center;
+    height: auto;
+}
+  
+  /* Show More button */
+  #FAQ button
+  {
+    background-color: #D56B27;
+    margin-left: 250px;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #D3A76A;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
+  .footer-section p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .footer-section .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .footer-section .social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+  }
+  
