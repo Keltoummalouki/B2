@@ -23,9 +23,3 @@ JapArt is a modernized website aimed at enhancing user experience and visual app
 - **GitHub Pages**: For hosting the website.
 
 ---
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/JapArt.git
